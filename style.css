@@ -7,3 +7,181 @@
 }
 
 /* Write CSS code below */
+.main-content{
+  display: grid;
+  grid-template-columns: 300px 700px;
+  width: 90%;
+  min-height: 1000px;
+  background-color:whitesmoke;
+  margin: 20px auto;
+}
+.left-section{
+  display: grid;
+   grid-column: 1/span 1fr;
+   
+  background-color: black;
+  color:white
+}
+.right-section{
+  display: grid;
+  width: 90%;
+   grid-column: 1/span 2fr;
+   
+  background-color:whitesmoke
+}
+.left-content{
+  padding: 1rem;
+}
+.profile-image{
+  display: block;
+  justify-items: center;
+  /* height: 10% ;*/
+  width: 60% ; 
+  margin: auto; 
+  border-radius: 30%;
+  border: 5px solid white;
+}
+.name{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.02px;
+  padding: 0.8rem;
+}
+.designation{
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 0.5rem;
+}
+.description{
+  text-align: center;
+  font-size: 0.75rem;
+  padding: 1rem;
+}
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5%;
+  cursor: pointer;
+  color: rgb(103, 103, 231);
+  font-size: 20px;
+}
+/* .contact-icon{
+  /* display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  
+} */
+.skills{
+  font-size: 0.75rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+.skill-name{
+  font-size: 0.65rem;
+  font-weight: 0.65rem;
+  text-align:left;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-bottom: 0.5rem;
+}
+
+.progress-bar {
+  width: 90%;
+  height: 4px;
+  border: 1px white solid;
+  background-color:white;
+}
+.myBar1 {
+  width: 80%;
+  background-color: rgb(44, 43, 43);
+  margin: 5% 0% 5% 0%;
+}
+.myBar2 {
+  width: 80%;
+  height: 4px;
+  border: 1px white solid;
+  background-color:white;
+  margin: 5% 0% 5% 0%;
+}
+.myBar3 {
+  width: 70%;
+  height: 4px;
+  border: 1px white solid;
+  background-color:white;
+  margin: 5% 0% 5% 0%;
+}
+.myBar4 {
+  width: 60%;
+  height: 4px;
+  border: 1px white solid;
+  background-color:white;
+  margin: 5% 0% 5% 0%;
+}
+.myBar5 {
+  width: 50%;
+  height: 4px;
+  border: 1px white solid;
+  background-color:white;
+  margin: 5% 0% 5% 0%;
+}
+.myBar6 {
+  width: 40%;
+  height: 4px;
+  border: 1px white solid;
+  background-color:white;
+  margin: 5% 0% 5% 0%;
+}
+/*******************Right Section part css******************/
+/* .right-section{
+  padding: 2rem 3rem 2rem 3rem;  
+} */
+
+.right-main-content{
+  padding: 2rem 3rem 2rem 3rem;
+}
+.right-title{
+  text-transform: uppercase;
+  font-weight:700;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  letter-spacing: 1px;
+}
+.sub-heading{
+  margin-bottom: 0.5rem;
+}
+
+
+.about-content{
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+.education-content{
+  font-size: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.sub-education{
+  margin-right: 10%;
+}
+.experience-content{
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+@media screen and (max-width: 674px) {
+  .main-content{
+    width: 90%;
+    min-height: 1000px;
+    margin: 20px auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
